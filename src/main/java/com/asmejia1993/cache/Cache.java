@@ -29,7 +29,6 @@ public class Cache {
             this.lessRecent.remove(0);
         }
 
-
         return this.cache.get(key);
     }
 
